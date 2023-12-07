@@ -25,7 +25,7 @@ def calculate():
         result_label.config(text="Enter valid numbers")
 
 root = Tk()
-root.title("Basic Calculator")
+root.title("Calculator")
 
 Label(root, text="Enter Number 1:").pack()
 entry_num1 = Entry(root)

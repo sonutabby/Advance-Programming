@@ -31,7 +31,7 @@ def register_student():
     print(f"English Communication Skills Rating: {english_rating}")
 
 root = Tk()
-root.title("Student Registration")
+root.title("Registration Page")
 
 # Labels and Entry fields
 Label(root, text="Student Name:").grid(row=0, column=0, padx=5, pady=5)
