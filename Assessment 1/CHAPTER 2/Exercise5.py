@@ -46,4 +46,5 @@ Button(root, text="Calculate", command=calculate).pack()
 result_label = Label(root, text="Result: ")
 result_label.pack()
 
+root.geometry("300x300") 
 root.mainloop()
