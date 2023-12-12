@@ -28,7 +28,7 @@ def calculate_rectangle_area():
         rectangle_area_label.config(text="Please enter valid length and width")
 
 root = tk.Tk()
-root.title("Area Calculator")
+root.title("Area Function")
 
 tab_control = ttk.Notebook(root)
 
