@@ -47,3 +47,6 @@ class Employee_GUI(tk.Tk):
 if __name__ == "__main__":
     app = Employee_GUI()
     app.mainloop()
+
+
+app.mainloop()
