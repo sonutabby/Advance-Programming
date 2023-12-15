@@ -10,7 +10,7 @@ def count_occurrences():
         output_label.config(text="File not found.")
 
 root = tk.Tk()
-root.title("Character Occurrences Counter")
+root.title("Letter Count")
 
 char_label = tk.Label(root, text="Enter a character:")
 char_label.pack()
