@@ -7,7 +7,7 @@ class FoodOrderApp:
         self.root = root
         self.root.title("Food Order App")
 
-        # Load your background image (replace 'background_image.jpg' with your image file)
+        # Adding background 
         image_path = 'C:/Users/avril/Downloads/pexels-pixabay-260922.jpg'
         img = Image.open(image_path)
 
