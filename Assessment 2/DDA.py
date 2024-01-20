@@ -70,7 +70,7 @@ class FoodOrderApp:
         self.update_cost_label()
 
     def update_cost_label(self):
-        # Update the cost label with total cost only (remove individual costs)
+        # Update the cost label with total cost only
         total_cost = self.total_cost
         self.cost_label.config(text=f"Cost:\nTotal: AED {total_cost:.2f}")
 
